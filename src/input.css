@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.list {
+    perspective: 1000px;
+}
+
+.list-two {
+    transform: rotateX(30deg);
+}
+
+.list-one {
+    transform: rotateX(-30deg);
+}
+
+::placeholder {
+    text-align: center;
+}
+
+#canvas {
+    box-sizing: content-box;
+    border-color: rgb(246, 204, 126);
+    border: 2px solid greenyellow;
+}
